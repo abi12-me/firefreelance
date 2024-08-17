@@ -1,0 +1,257 @@
+
+
+
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+
+  
+
+  .navbar
+  {
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    
+  }
+
+  .navbar li
+  {
+    display: inline-flex;
+    color: grey;
+    margin: 10px;
+   
+  }
+
+  #links a
+  {
+    color: grey;
+  }
+
+  li:hover
+  {
+    color: azure;
+    cursor: pointer;
+  }
+
+  #eswar 
+  {
+    border-radius: 100%;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .space
+  {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+  }
+
+  .footer
+  {
+    background-color: black;
+    color: azure;
+    margin-top: 10px;
+    padding: 10px;
+
+  }
+
+
+  .footer i
+  {
+    color:grey;
+    font-size: xx-large;
+    margin-bottom: 10px;
+  }
+
+  .space h1
+  {
+    margin: 20px;
+  }
+
+  .footer a
+  {
+    color: grey;
+   
+  }
+
+  .footer h1
+  {
+    margin-bottom:20px;
+  }
+
+  .footer h3
+  {
+    margin-bottom:20px;
+  }
+  
+  .footer i:hover
+  {
+    color: azure;
+    cursor: pointer;
+  }
+
+  .footer a:hover
+  {
+    color: azure;
+    cursor: pointer;
+  }
+
+  .co h1
+  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .bar 
+    {
+      display:none
+    }
+
+  .side-nav
+  {
+    background-color:black;
+    color:grey;
+    height:100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    left:-60%;
+    padding: 20px;
+    transition: 2s;
+   
+  }
+
+  .side-links a
+  {
+    color: grey;
+    margin: 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .side-links a:hover
+  {
+    cursor: pointer;
+    color: azure;
+    text-decoration: underline;
+  }
+
+
+  .cob {
+    width: 80%;
+    margin: 0 auto;
+    display: flex; /* Or use float */
+    justify-content: space-between;
+  }
+  
+  .cob img {
+    width: 70%;
+  }
+  
+  .box {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .box h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+
+  .para
+  {
+    margin: 20px;
+    padding: 10px;
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    font-weight: bold;
+  }
+
+
+  .overlay
+  {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+  }
+
+  .bigimage
+  {
+    position: absolute;
+    z-index: 2;
+   left: 42%;
+   top:30%;
+   display: none;
+   
+  }
+
+   .overlay i
+  {
+    color: azure;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    
+  }
+
+  .es
+  {
+    transition: transform 0.2s;
+  }
+
+  .es:hover
+  {
+    transform: scale(2.5);
+  }
+
+  
+
+  @media screen  and (max-width:600px)
+  {
+    #links
+    {
+      display: none;
+    }
+    .bar 
+    {
+      display:block
+    }
+
+    .container
+    {
+      max-width: 400p;
+    }
+
+
+    
+  }
+
